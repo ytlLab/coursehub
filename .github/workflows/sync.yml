@@ -1,0 +1,31 @@
+name: Sync Courses Content
+
+on:
+  workflow_dispatch: # 允許手動點擊按鈕更新
+  repository_dispatch: # 允許從外部 Repository 觸發更新
+    types: [sync-event]
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout coursehub
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }} # 需要設定 Token 才有權限推送到這個 Repo
+
+      - name: Fetch Latest Content
+        run: |
+          # 下載 python 的 README 並存到 python/README.md
+          curl -L https://raw.githubusercontent.com/ytlLab/python/main/README.md -o python/README.md
+          
+          # 下載 microprocessor 的 README 並存到 microprocessor/README.md
+          curl -L https://raw.githubusercontent.com/ytlLab/microprocessor/main/README.md -o microprocessor/README.md
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add python/README.md microprocessor/README.md
+          git commit -m "Auto-sync from source repositories" || echo "No changes to commit"
+          git push

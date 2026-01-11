@@ -3,8 +3,8 @@ Python basic syntax and web scraping module operations</br>
 
 ---
 # 章節目錄
-## [ch01_基本語法](CH01_basicGrammar.md)
-## [ch02_判斷式](CH02_if.md)
+## [ch01_基本語法]([CH01_basicGrammar.md](https://github.com/ytlLab/python/blob/main/CH01_basicGrammar.md))
+## [ch02_判斷式]([CH02_if.m](https://github.com/ytlLab/python/blob/main/CH02_if.md)d)
 
 ---
 Reference books：</br>

@@ -12,6 +12,9 @@
       name: '課程中心',
       repo: '',
       loadSidebar: true, // 啟用側邊欄
+      alias: {
+      '/.*/_sidebar.md': '/_sidebar.md' // 確保子目錄也能共用同一個側邊欄
+      },      
       subMaxLevel: 2,
       homepage: 'README.md'
     }

@@ -12,6 +12,8 @@ Python basic syntax and web scraping module operations</br>
 #### [ch08_物件導向程式開發](https://github.com/ytlLab/python/blob/main/ch08.md)
 #### [ch09_網路新聞資料蒐集](https://github.com/ytlLab/python/blob/main/ch09.md)
 #### [ch10_多媒體圖片影片下載](https://github.com/ytlLab/python/blob/main/ch10.md)
+#### [ch11_網頁request應用(JSON)](https://github.com/ytlLab/python/blob/main/ch11.md)
+#### [ch12_語音文字處理](https://github.com/ytlLab/python/blob/main/ch12.md)
 
 
 ---

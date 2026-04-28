@@ -15,7 +15,7 @@ Python basic syntax and web scraping module operations</br>
 #### [ch11_網頁request應用(JSON)](https://github.com/ytlLab/python/blob/main/ch11.md)
 #### [ch12_語音文字處理](https://github.com/ytlLab/python/blob/main/ch12.md)
 #### [ch13_基本自然語言處理](https://github.com/ytlLab/python/blob/main/ch13.md)
-
+#### [ch14_進階自然語言處理](https://github.com/ytlLab/python/blob/main/ch14.md)
 
 ---
 Reference books：</br>

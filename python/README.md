@@ -17,6 +17,8 @@ Python basic syntax and web scraping module operations</br>
 #### [ch13_基本自然語言處理](https://github.com/ytlLab/python/blob/main/ch13.md)
 #### [ch14_進階自然語言處理](https://github.com/ytlLab/python/blob/main/ch14.md)
 #### [ch15_臉部辨識分析](https://github.com/ytlLab/python/blob/main/ch15.md)
+#### [ch16_圖片內容偵測](https://github.com/ytlLab/python/blob/main/ch16.md)
+
 
 
 ---
